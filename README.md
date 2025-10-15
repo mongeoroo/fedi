@@ -39,3 +39,4 @@ $ bash benchmarks/linearprob/linear.sh
 
 This repo is mainly based on [MEC](https://github.com/xinliu20/MEC) and shares the same spirit that aims to make minimal modifications on [the official PyTorch ImageNet training code](https://github.com/pytorch/examples/tree/master/imagenet). Many thanks to their wonderful work!
 
+# fedi
