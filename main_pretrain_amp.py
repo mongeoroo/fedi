@@ -357,8 +357,8 @@ def loss_func(p, z):
     z = gather_from_all(z)
 
     # normalize the projector and predictor vectors
-    p = F.normalize(p)
-    z = F.normalize(z)
+    p = F.normalize(p, dim=0)
+    z = F.normalize(z, dim=0)
 
     # calculate cross-correlation
     logits = p.T @ z # D, D
